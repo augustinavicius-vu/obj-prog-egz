@@ -159,11 +159,13 @@ int main()
     std::vector<std::string> tekstas = gautiTeksta(failas);
     failas.close();
 
-    // Surinkti URLs ir juos istrinti is teksto
+    // Surinkti URLs
     std::vector<std::string> linkai = gautiLinkus(tekstas);
 
+    // Surinkti pasikartojancius zodzius
     std::map<std::string, std::vector<int>> zodziai = gautiZodziuMap(tekstas);
 
+    // Gautus rezultatus isvesti
     isvestiLinkus(linkai);
     isvestiZodzius(zodziai);
 
