@@ -5,6 +5,7 @@
 #include <map>
 #include <cctype>
 #include <algorithm>
+#include <regex>
 
 std::vector<std::string> gautiTeksta(std::ifstream &failas)
 {
@@ -35,14 +36,6 @@ std::vector<std::string> gautiTLDs()
     return tlds;
 }
 
-bool turiTLD(const std::string& fullString, const std::string& phrase) {
-    if (fullString.find(phrase) != std::string::npos) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
 std::string formatuotiLinka(std::string linkas) {
     std::string result = linkas;
 
@@ -50,6 +43,20 @@ std::string formatuotiLinka(std::string linkas) {
         result.pop_back();
     }
     return result;
+}
+
+bool turiTLD(std::string fullString, std::string phrase) {
+    if (fullString.find(phrase) != std::string::npos) {
+        fullString = formatuotiLinka(fullString);
+        if (fullString.length() < phrase.length())
+        {
+            return false;
+        }
+
+        return fullString.substr(fullString.length() - phrase.length()) == phrase;
+    } else {
+        return false;
+    }
 }
 
 std::vector<std::string> gautiLinkus(std::vector<std::string> &tekstas)
