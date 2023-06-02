@@ -1544,7 +1544,6 @@ sr.it
 ss.it
 suedtirol.it
 südtirol.it
-sv.it
 ta.it
 taranto.it
 te.it
@@ -3836,7 +3835,6 @@ oslo.no
 rl.no
 sf.no
 st.no
-svalbard.no
 tm.no
 tr.no
 va.no
@@ -3858,7 +3856,6 @@ gs.oslo.no
 gs.rl.no
 gs.sf.no
 gs.st.no
-gs.svalbard.no
 gs.tm.no
 gs.tr.no
 gs.va.no
@@ -4024,7 +4021,6 @@ eid.no
 eidfjord.no
 eidsberg.no
 eidskog.no
-eidsvoll.no
 eigersund.no
 elverum.no
 enebakk.no
@@ -4109,7 +4105,6 @@ hámmárfeasta.no
 haram.no
 hareid.no
 harstad.no
-hasvik.no
 aknoluokta.no
 ákŋoluokta.no
 hattfjelldal.no
@@ -4169,7 +4164,6 @@ klepp.no
 klabu.no
 klæbu.no
 kongsberg.no
-kongsvinger.no
 kragero.no
 kragerø.no
 kristiansand.no
@@ -4206,7 +4200,6 @@ davvesiida.no
 leikanger.no
 leirfjord.no
 leka.no
-leksvik.no
 lenvik.no
 leangaviika.no
 leaŋgaviika.no
@@ -4265,7 +4258,6 @@ modum.no
 molde.no
 moskenes.no
 moss.no
-mosvik.no
 malselv.no
 målselv.no
 malatvuopmi.no
@@ -4276,7 +4268,6 @@ namsos.no
 namsskogan.no
 naamesjevuemie.no
 nååmesjevuemie.no
-laakesvuemie.no
 nannestad.no
 narvik.no
 narviika.no
@@ -4445,7 +4436,6 @@ stor-elvdal.no
 stord.no
 stordal.no
 storfjord.no
-omasvuotna.no
 strand.no
 stranda.no
 stryn.no
@@ -4454,8 +4444,6 @@ suldal.no
 sund.no
 sunndal.no
 surnadal.no
-sveio.no
-svelvik.no
 sykkylven.no
 sogne.no
 søgne.no
@@ -4508,15 +4496,10 @@ tvedestrand.no
 tydal.no
 tynset.no
 tysfjord.no
-divtasvuodna.no
-divttasvuotna.no
 tysnes.no
-tysvar.no
-tysvær.no
 tonsberg.no
 tønsberg.no
 ullensaker.no
-ullensvang.no
 ulvik.no
 utsira.no
 vadso.no
@@ -5117,12 +5100,6 @@ principe.st
 saotome.st
 store.st
 su
-sv
-com.sv
-edu.sv
-gob.sv
-org.sv
-red.sv
 
 sx
 gov.sx
@@ -6665,7 +6642,6 @@ rocks
 rodeo
 rogers
 room
-rsvp
 rugby
 ruhr
 run
@@ -8639,7 +8615,6 @@ webthings.io
 
 git-repos.de
 lcube-server.de
-svn-repos.de
 
 leadpages.co
 lpages.co
@@ -9434,7 +9409,6 @@ telebit.io
 *.telebit.xyz
 
 *.firenet.ch
-*.svc.firenet.ch
 reservd.com
 thingdustdata.com
 cust.dev.thingdust.io

@@ -93,8 +93,8 @@ std::string formatuotiZodi(std::string zodis)
     return suformatuotasZodis;
 }
 
-bool neTekstas(const std::string& text) {
-    for (char c : text) {
+bool neTekstas(const std::string& tekstas) {
+    for (char c : tekstas) {
         if (!std::isalnum(c)) {
             return true;
         }
@@ -141,7 +141,7 @@ void isvestiZodzius(std::map<std::string, std::vector<int>> zodziai)
 
         if (pozicijos.size() < 2) continue;
 
-        failas << zodis << " pasikartojo: " << pozicijos.size() << " kartus, šiose pozicijose: ";
+        failas << zodis << " : " << pozicijos.size() << " | ";
         for (int pozicija : pozicijos)
         {
             failas << pozicija << " ";
